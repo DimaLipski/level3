@@ -1,0 +1,106 @@
+.section-tab {
+    padding: 70px 150px;
+
+
+
+    &__list-tab {
+        display: flex;
+        position: relative;
+}
+    &__list-tab-item { 
+        position: relative;
+        background: white;
+        padding: 9px 30px;
+        width: 200px;
+        z-index: 2;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
+        &:hover {
+            top: 1px;
+            cursor: pointer;
+            border-top: 1px solid #C6CBCD;   
+            border-left: 1px solid #C6CBCD;
+            border-right: 1px solid #C6CBCD;
+            
+        }
+    }
+    &__list-tab-item--active {
+        position: relative;
+        background: white;
+        border-top: 1px solid #C6CBCD;   
+        border-left: 1px solid #C6CBCD;
+        border-right: 1px solid #C6CBCD;
+            &:hover { 
+            background: white;
+            top: 1px;
+            cursor: pointer;
+            border-top: 1px solid #C6CBCD;   
+            border-left: 1px solid #C6CBCD;
+            border-right: 1px solid #C6CBCD;
+        }
+    }
+
+
+    &__tabs-content {
+    width: 1170px;
+    height: 501px;
+    border: 1px solid #C6CBCD;
+    display: flex;
+    }
+    &__tabs-content-main-content {
+        padding: 54px 30px 54px 100px;
+    }
+
+    &__tabs-content-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        margin-bottom: 74px;
+    }
+
+    &__tabs-content-desc {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        margin-bottom: 27px;
+
+    }
+
+
+&__button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    transition: background .3s ease-in-out;
+        &:hover {
+            cursor: pointer;
+            background: #e55c5c;
+        }
+        &:active {
+            background: #AB4949;
+            cursor: wait;
+            color: #FFFFFF;
+        }
+    }
+}

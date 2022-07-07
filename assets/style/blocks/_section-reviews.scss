@@ -1,0 +1,125 @@
+.section-reviews {
+    background: white;
+    padding: 100px 0px 64px 0px;
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #000000;
+        }
+    &__subtitle {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        margin-bottom: 80px;
+    }
+
+    &__comments {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        }
+
+
+    &__comment {
+        width: 370px;
+        }
+    
+    &__comment-text--wrapper {
+        padding: 38px;
+        background: #E2E2E2;
+        border-radius: 10px;
+        margin-bottom: 65px;
+        position: relative;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 20%;
+            top: 90%;
+            width: 30px;
+            height: 30px;
+            background: #E2E2E2;
+            transform: rotate(45deg);
+            }
+        }
+
+    &__comment-text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        text-align: center;
+    }
+
+    &__comment-user-block {
+        display: flex;
+        align-items: center;
+        }
+
+    &__comment-user-block {
+        padding: 5PX;
+        }
+    &__user-block-avatar--wrapper {
+        width: 70px;
+        height: 70px;
+        }
+
+    &__user-block-avatar {
+
+    }
+
+    &__user-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__user-block-user-info {
+        margin: 8px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    &__user-block-user-name {
+        margin: 8px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    
+    &__user-block-user-group {
+        margin: 8px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+}

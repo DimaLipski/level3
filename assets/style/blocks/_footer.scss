@@ -1,0 +1,49 @@
+.footer{
+    background: #000000;
+    padding: 35px 0px 27px 0px;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+    &__item {
+        height: 55px;
+        width: 55px;
+        transition: background .1s ease-in-out;
+        &:hover {
+        cursor: pointer;
+        background: rgb(110, 110, 110);
+        }
+    }
+    
+    &__link {
+
+    }
+
+    &__img {
+        transition: background .1s ease-in-out;
+        &:active {
+        cursor: pointer;
+        background: white;}
+    }
+
+    &__author{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+    &__author-name {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}

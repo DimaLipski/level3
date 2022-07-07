@@ -1,0 +1,100 @@
+.section-price {
+    background: #F5F5F5;
+    padding: 100px 0px 50px 0px;
+
+    &__price-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        }
+
+    &__price-list-title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #000000;
+        }
+
+    &__price-list-subtitle {
+        margin-bottom: 80px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        }
+
+
+    &__options {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        }
+    
+    &__options-price {
+        width: 370px;
+        transition: transform .6s ease-in-out;
+        &:hover {
+            transform: translateY(-20px);
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px rgba(15, 15, 15, 0.5)
+            }
+        }
+
+    &__options-title {
+        padding: 14px 0px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background: #333333;
+        border: 1px solid #F5F5F5;
+        }
+
+    &__options-many {
+        padding: 29px 0px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #FFFFFF;
+        background: #333333;
+        border: 1px solid #F5F5F5;
+        }
+
+    &__options-subtitle {
+        padding: 15px 0 ;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        background: #333333;
+        border: 1px solid #F5F5F5;
+        }
+
+    &__options-prg {
+        padding: 15px 0 ;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #86878B;
+        background: #FFFFFF;
+        border: 1px solid #F5F5F5;
+        }
+}
